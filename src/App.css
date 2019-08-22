@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+@import url('https://fonts.googleapis.com/css?family=Gochi+Hand');
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy');
+@import url('https://fonts.googleapis.com/css?family=Sigmar+One');
+@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great');
+@import url('https://fonts.googleapis.com/css?family=Chewy');
+@import url('https://fonts.googleapis.com/css?family=Cabin+Sketch');
+@import url('https://fonts.googleapis.com/css?family=Shojumaru');
+@import url('https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister');
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+English+SC');
+@import url('https://fonts.googleapis.com/css?family=Shojumaru');
+@import url('https://fonts.googleapis.com/css?family=Bangers');
+
+/*overall*/
+article h1 {
+  font-size: 4.9vmin;
+}
+article h3,h3.featured-heading-text {
+  font-size: 3.0vh;
+}
+p {
+  font-size: 2vmin;
+}
+.h3-text{
+  font-size: 3vw;
+  font-weight:bolder;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.p-text{
+  font-weight:bolder;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+/*Navigation bar*/
+.Logo {
+  width: 5vw;
+  height: auto;
+  pointer-events: none;
+}
+
+.navbar{
+  color:  rgb(255, 255, 255);
+  background-color:#2BBBAD;
+  transition: 0.2s;
+}
+
+.navLink{
+  color: #fff;
+  font-size: 3vmin;
+  font-weight:bolder;
+}
+
+/*Header*/
+.header {
+  background-color: #00695c; 
+}
+
+.header-text{
+  font-family: "Montserrat", sans-serif;
+  display: inline;
+}
+
+.header-icons{
+  display: inline
+}
+
+/*Featured Items*/
+/* Zoom In*/
+/* .flex_box {
+  position: relative;
+  overflow: hidden;
+  width: 750px;
+  height: 750px;
+} */
+/* .item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* overflow: hidden; 
+} */
+
+/* 
+@media screen and (min-width: 1210px) {
+  .custom-women-image {
+    top:-30px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .custom-women-image {
+    top:-210px;
+    left:330px;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1210px) {
+  .custom-women-image {
+    top:-150px;
+    left:450px;
+  }
+} */
+
+/* .column#zoomIn img {
+  /* -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out; 
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.column#zoomIn:hover img {
+  -moz-transform: scale(1.3);
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+} */
+.carousel_img{
+  width: 100vw;
+  height: 40vh;
+  max-width:100%;
+  max-height: 50%; 
+  object-fit: scale-down;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+.box{
+  margin:8vw;
+  width:80vw;
+  height:auto;
+  background:#fff;
+  border: solid black;
+  border-color: black;
+}
+
+/* .box1{
+  border-width: 3px 4px 3px 5px;
+  border-radius:95% 4% 92% 5%/4% 95% 6% 95%;
+  transform: rotate(2deg);
+} */
+.evenboxinner{
+  /* transform: rotate(2deg); */
+  margin:15px;
+  padding:0 5px;
+  background:#ddd;
+  border:1px solid #222;
+  box-shadow:3px 3px 0 #222;
+}
+/*Item*/
+ButtonGroup{
+  vertical-align: bottom
+}
+
+/* @media screen and (min-width: 992px) and (max-width: 1306px) {
+  Card>Card.Body>ButtonGroup>Button.cards-text{
+    font-size: 9vmin;
+    font-weight: bolder;
+  }
+} */
+
+/* @media screen and (max-width: 299px) {
+  FontAwesomeIcon{
+      font-size: 1.2em;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 799px) {
+  FontAwesomeIcon{
+      font-size: 2em;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  FontAwesomeIcon{
+      font-size: 4em;
+  }
+} */
+
+/* @media (max-width: 399px) {
+  Navbar>Navbar.Collapse>Form>FormControl{
+      width:200px !important;
+  }
+}
+@media (max-width: 499px) {
+  Navbar>Navbar.Collapse>Form>FormControl{
+      width:300px !important;
+  }
+}
+@media (min-width: 768px) {
+  Navbar>Navbar.Collapse>Form>FormControl{
+      width:500px !important;
+  }
+} */
+
+.card-img{
+  width: auto;
+  height: 25vh;
+  max-width:100%;
+  max-height: 50%; 
+  object-fit: scale-down;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.card-title{
+  font-size: 2vmin;
+}
+
+/*Tag*/
+img.tag-img{
+  -webkit-filter:grayscale(10%);
+  transition: 0.3s ease;
+  filter: opacity(50%);
+
+}
+img.tag-img:hover{
+  -webkit-filter:grayscale(100%);
+  filter: opacity(100%); 
+}
+.custom-orange{
+  color:#f4511e
+}
+/*Parallax*/
+.parallax {
+  /* The image used */
+  background-image: url('./p.jpg');
+
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 400px;
+}
+/*Slider(Slick)*/
+.slick-slide {
+  padding: 0 15px;
+}
+
+.slick-list {
+  margin: 0 2em;
+}
+.slick-prev {
+  left: 1% !important;
+  z-index: 1;
+}
+.slick-next {
+  right: 1% !important;
+  z-index: 1;
+}
+.slick-prev:before,
+.slick-next:before {
+  color: #2BBBAD
+}
+/*News Letter*/
+.newsletter{
+  background-image: url('./b1.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  min-height: 60vh;
+}
+.newsletter_component{
+  padding-top: 10%;
+  padding-left: 5%;
+}
+/*View*/
+.display-img{
+  width: 60vh;
+  height: 70vh;
+}
+.list-group-item{
+  font-size: 100%;
+}
+/*Services*/
+.verticalbox{
+  height:auto;
+  width: auto;
+  border:1px solid rgb(151, 138, 138);
+  box-shadow:3px 3px 0 rgb(199, 190, 190);
+}
+.service-icon{
+  width: auto;
+  height: auto;
+}
+.service-partition{
+  border-bottom:1px solid rgb(151, 138, 138);
+}
+.detail_partition{
+  border-bottom:1px dashed rgb(226, 206, 206);
+}
+.fb-ic:hover, .tw-ic:hover, .gplus-ic:hover, .li-ic:hover, .ins-ic:hover, .wis-ic:hover{
+  color:#f4511e
+}
+.ins-ic{
+  border-right: 1px solid gainsboro;
+}
+/*colors*/
+.custom{
+  color: #ff4c3b
+}
+.orange{
+  color:orangered;
+}
+.yellow{
+  color:#e6ff04;
+}
+.salmon{
+  color:SALMON;
+}
+.cadet{
+  color:DARKTURQUOISE;
+}
+.voilet{
+  color:	MEDIUMVIOLETRED;
+}
+.gold{
+  color:	DARKGOLDENROD;
+}
+.red{
+  color:red;
+}
+.coral{
+  color:CORAL;
+}
+.spring{
+  color:MEDIUMSPRINGGREEN;
+}
+.blue{
+  color:blue;
+}
+.purple{
+  color:INDIGO;
+}
+/*fonts*/
+.bangers{
+  font-family: 'Bangers', cursive;
+}
+.righteous{
+  font-family: 'Righteous', cursive;
+}
+.gloria{
+  font-family: 'Gloria Hallelujah', cursive;
+}
+.permanent{
+  font-family: 'Permanent Marker', cursive;
+}
+.luckiest{
+  font-family: 'Luckiest Guy', cursive;
+}
+.sigmar{
+  font-family: 'Sigmar One', cursive;
+}
+.gochi{
+  font-family: 'Gochi Hand', cursive;
+}
+.frederick{
+  font-family: 'Fredericka the Great', cursive;
+}
+.chewy{
+  font-family: 'Chewy', cursive;
+}
+.cabin{
+  font-family: 'Cabin Sketch', cursive;
+}
+.sister{
+  font-family: 'Love Ya Like A Sister', cursive;
+}
+.IM{
+  font-family: 'IM Fell English SC', serif;
+}
+.shojumaru{
+  font-family: 'Shojumaru', cursive;
+}
